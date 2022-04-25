@@ -61,5 +61,3 @@ function sumOfDigits(num) {
 // fibonacci sequence as array.
 
 const fibonacciSequence = (num1, num2, index) => index ? [num1].concat(fibonacciSequence(num2, num1 + num2, --index)) : num1;
-
-const fibonacciSequenceByNumber = (num) => fibonacciSequence(0,1,num)
